@@ -2,7 +2,7 @@
     <nav class="container-fluid">
         <h2>Restaurent Record App</h2>
         <div class="d-flex">
-            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" (click)="clickAddRestro()" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Add Restaurent</button>
         </div>
     </nav>
@@ -37,7 +37,7 @@
             <td>{{data.address}}</td>
             <td>{{data.service}}</td>
             <td>
-                <button class="btn btn-info">Edit</button>&nbsp;
+                <button class="btn btn-info" (click)="onEditRestaurent(data)" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>&nbsp;
                 <button class="btn btn-danger"  (click)="deletetRestaurent(data)">Delete</button>
             </td>
         </tr>
@@ -50,7 +50,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Restaurent Record Form</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -82,7 +82,9 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" (click)="addRestaurent()">Add Details</button>
+                <button type="button" class="btn btn-primary" *ngIf="showAddBtn" (click)="addRestaurent()">Add Details</button>
+                <button class="btn btn-info" *ngIf="showUpdateBtn" (click)="updateRestaurent()" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Update Details</button>&nbsp;
+
             </div>
         </div>
     </div>

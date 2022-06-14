@@ -27,14 +27,14 @@ export class ApiService {
 
   //update Restaurent using PUT method
   updateRestaurent(data:any, id:number){
-    return this._http.post<any>("http://localhost:3000/posts/"+id,data).pipe(map((res:any)=>{
+    return this._http.put<any>("http://localhost:3000/posts/"+id,data).pipe(map((res:any)=>{
       return res;
     }))
   }
 
   //delete Restaurent using Delete Method
   deletetRestaurent(id:number){
-    return this._http.post<any>("http://localhost:3000/posts/",+id).pipe(map((res:any)=>{
+    return this._http.delete<any>("http://localhost:3000/posts/"+id).pipe(map((res:any)=>{
       return res;
     }))
   }

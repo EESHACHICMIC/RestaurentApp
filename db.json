@@ -1,14 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "name": "Rajeev Food Court",
-      "email": "rajeevfoodcourt@gmail.com",
-      "mobile": "9431258394",
-      "address": "Mohali Phase 8 B Industrial Area",
-      "service": "Tea, Breakfast"
-    },
-    {
       "id": 2,
       "name": "Test Restaurent ",
       "email": "testrestaurent@gmail.com",
@@ -18,10 +10,10 @@
     },
     {
       "id": 3,
-      "name": "Test4",
-      "email": "test@gmail.com",
+      "name": "Suman",
+      "email": "suman@gmail.com",
       "mobile": "7368958394",
-      "address": "Testing",
+      "address": "Mohali, Sectro 126",
       "service": "Lunch , Dinner"
     },
     {
@@ -29,33 +21,27 @@
       "name": "Hello Restaurent",
       "email": "helloRes@gmail.com",
       "mobile": "12345078908",
-      "address": "helll",
+      "address": "Mohali tower Chowk",
       "service": "BreakFast, lunch , dinner, cacke"
     },
     {
       "id": 5,
-      "name": "test",
-      "email": "res",
-      "mobile": "klk",
-      "address": "kk",
-      "service": "kk"
+      "name": "Raman dhaba",
+      "email": "ramandhaba@gmail.com",
+      "mobile": "456789867848",
+      "address": "Chnadigarh Sector 74",
+      "service": "Breakfast lunch dinner"
     },
     {
       "id": 6,
-      "name": "test5544",
-      "email": "kk",
-      "mobile": "kkk",
-      "address": "kkk",
-      "service": "kk"
+      "name": "Baba Ka Dhaba",
+      "email": "babakadhaba@gmail.com",
+      "mobile": "7368958394",
+      "address": "Near By Pass Road , USA",
+      "service": "All Kinds of veg Foods Available"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
