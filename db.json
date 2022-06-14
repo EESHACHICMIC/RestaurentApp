@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Rajeev Food Court",
+      "email": "rajeevfoodcourt@gmail.com",
+      "mobile": "9431258394",
+      "address": "Mohali Phase 8 B Industrial Area",
+      "service": "Tea, Breakfast"
+    },
+    {
+      "id": 2,
+      "name": "Test Restaurent ",
+      "email": "testrestaurent@gmail.com",
+      "mobile": "7368958394",
+      "address": "This is test address",
+      "service": "Tea, Breakfast, Lunch"
+    },
+    {
+      "id": 3,
+      "name": "Test4",
+      "email": "test@gmail.com",
+      "mobile": "7368958394",
+      "address": "Testing",
+      "service": "Lunch , Dinner"
+    },
+    {
+      "id": 4,
+      "name": "Hello Restaurent",
+      "email": "helloRes@gmail.com",
+      "mobile": "12345078908",
+      "address": "helll",
+      "service": "BreakFast, lunch , dinner, cacke"
+    },
+    {
+      "id": 5,
+      "name": "test",
+      "email": "res",
+      "mobile": "klk",
+      "address": "kk",
+      "service": "kk"
+    },
+    {
+      "id": 6,
+      "name": "test5544",
+      "email": "kk",
+      "mobile": "kkk",
+      "address": "kkk",
+      "service": "kk"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
