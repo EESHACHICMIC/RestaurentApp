@@ -39,6 +39,94 @@
       "mobile": "7368958394",
       "address": "Near By Pass Road , USA",
       "service": "All Kinds of veg Foods Available"
+    },
+    {
+      "id": 7,
+      "name": "Rohit da dhaba",
+      "email": "rohit@gmail.com",
+      "mobile": "7368958394",
+      "address": "RohitNagar",
+      "service": "Lunch and Breakfast"
+    },
+    {
+      "id": 8,
+      "name": "Abc",
+      "email": "bacl",
+      "mobile": "fklfdlkdk",
+      "address": "kdfljksdj, fdfd 852113",
+      "service": "Lunch Breakfast Tea, Burger, Pizza"
+    }
+  ],
+  "signup": [
+    {
+      "name": "Md Eesha",
+      "email": "mdeesha1996@gmail.com",
+      "mobile": "9431258394",
+      "password": "Eesha@1234",
+      "id": 1
+    },
+    {
+      "name": "Raj",
+      "email": "raj@gmail.com",
+      "mobile": "7368958394",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "name": "gfg",
+      "email": "dfgdfg",
+      "mobile": "ggg",
+      "password": "ef2466hgg",
+      "id": 10
     }
   ],
   "comments": [],
